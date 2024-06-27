@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  titi:
+  build:
     uses: smars006/test/.github/workflows/main.yml@main
     with:
       name: test123
