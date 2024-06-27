@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run My Customn Action
-      uses: ./.github
+      uses: ./.github/actions
       with:
         name: "World"
